@@ -92,7 +92,7 @@ public class ArrayTasks {
                 counter++;
             }
         }
-        int[] res = new int[counter];
+        int[] res = new int[arr.length-counter];
         counter = 0;
         for (int j : arr) {
             if (j != 0) {
