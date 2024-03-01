@@ -12,6 +12,6 @@ public class Animal {
     }
 
     public String getDescription() {
-        return String.format("This animal is mostly %s. It has %s paws and %s fur.", color, numberOfPaws, hasFur ? "a" : "no");
+        return String.format("This animal is mostly %s. It has %s %s and %s fur.", color, numberOfPaws, numberOfPaws > 1 ? "paws" : "paw", hasFur ? "a" : "no");
     }
 }

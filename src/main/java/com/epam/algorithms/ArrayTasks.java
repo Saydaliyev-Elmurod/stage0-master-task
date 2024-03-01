@@ -95,9 +95,8 @@ public class ArrayTasks {
         int[] res = new int[arr.length-counter];
         counter = 0;
         for (int j : arr) {
-            if (j != 0) {
-                res[counter] = arr[j];
-                counter++;
+            if (arr[j] != 0) {
+                res[counter++] = arr[j];
             }
         }
         return res;
