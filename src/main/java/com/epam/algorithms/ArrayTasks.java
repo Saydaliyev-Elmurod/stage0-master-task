@@ -96,7 +96,7 @@ public class ArrayTasks {
         counter = 0;
         for (int j : arr) {
             if (j != 0) {
-                res[counter] = j;
+                res[counter] = arr[j];
                 counter++;
             }
         }
